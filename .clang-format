@@ -1,0 +1,26 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 0
+---
+Language: Cpp
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+BraceWrapping:
+  AfterFunction: true
+  AfterEnum: true
+  AfterStruct: false
+  AfterClass: false
+  AfterNamespace: false
+  AfterCaseLabel: true
+  AfterExternBlock: false
+  BeforeElse: true
+  AfterControlStatement: Always
+
+BreakBeforeBraces: Custom
+
+IndentCaseBlocks: true
+IndentCaseLabels: true
+SortIncludes: true
